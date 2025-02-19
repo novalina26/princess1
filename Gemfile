@@ -7,6 +7,6 @@ group :test do
   gem "pry", require: false
   gem "rake"
   gem "rubocop"
-  gem "rubocop-performance"
+  gem "rubocop-performance", ">= 1.24.0"
   gem "safe_yaml"
 end
